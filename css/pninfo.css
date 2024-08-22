@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+
+nav{
+    background: blue;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+
+nav .menu a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: monospace;
+    color: white;
+    margin: 0 10px;
+}
+.banner{
+    background: url(../image/pn\ back.jpg);
+    height: 450px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}

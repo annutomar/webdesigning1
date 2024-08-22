@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    position: fixed;
+    background: white;
+    top: 0;
+    z-index: 1;
+}
+
+nav .menu a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: monospace;
+    color: #ff2b85;
+    margin: 0 10px;
+}
+
+.banner {
+    /* background-image: linear-gradient((to right, yellow,black)); */
+    /* background: rgba(0,0,0,0.6);
+    background: url(../image/about-foodpanda-1920x539.jpeg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
+    background: url(../image/about-foodpanda-1920x539.jpeg);
+
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.banner input {
+    width: 600px;
+    height: 38px;
+    background: rgba(0, 0, 0, .7);
+    border: medium;
+    padding-left: 15px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 7px;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+
+
+.banner h1 {
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 140px;
+    background-color: #27314d;
+    margin: auto;
+    width: 53%;
+}
+
+.news {
+    background: #ff2b85;
+    width: 100%;
+    height: 60px;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding-top: 3px;
+    text-shadow: 3px 3px 3px black;
+
+}
+
+.about {
+    background: white;
+    padding: 100px 200px;
+    text-align: center;
+
+}
+
+.about h3 {
+    font-size: 38px;
+    text-transform: uppercase;
+
+    letter-spacing: 3px;
+    margin-bottom: 13px;
+}
+
+.about p {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 26px;
+    font-family: cursive;
+    margin-bottom: 13px;
+
+}
+
+.about button {
+    padding: 13px 48px;
+    font-size: 16px;
+    background: #ff2b85;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.press {
+    padding: 100px 200px;
+    background: url(../image/gohan.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.press h3 {
+
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.press p {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 26px;
+    font-family: cursive;
+    margin-bottom: 13px;
+    color: white;
+
+}
+
+.press button {
+    padding: 13px 48px;
+    font-size: 16px;
+    background: #ff2b85;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.team {
+    background: red;
+    padding: 100px 200px;
+    text-align: center;
+}
+
+.team h3 {
+
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.team p {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 26px;
+    font-family: cursive;
+    margin-bottom: 13px;
+    color: white;
+
+}
+.team button {
+    padding: 13px 48px;
+    font-size: 16px;
+    background: #ff2b85;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background: #27314d;
+    padding: 80px 5% 70px;
+    list-style: none;       
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+   gap: 3.5rem; 
+   background: #1a242f;
+   
+  
+   
+ 
+}
+.footer-content{
+    color: wheat;
+    font-size: 20px;
+    
+}
+.footer-content h4{
+    font-size: 25px;
+    color: #fff;
+    
+}
+.footer-content li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    color: wheat;
+    margin-top: 10px;
+}
